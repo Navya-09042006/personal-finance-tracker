@@ -1,0 +1,43 @@
+.dashboard-container {
+  padding: 30px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+.welcome-section {
+  margin-bottom: 30px;
+}
+
+.welcome-section h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  font-size: 16px;
+  color: #555;
+  text-align: left;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #2563eb;
+}
